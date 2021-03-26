@@ -26,7 +26,7 @@
   .matrix {
     text-align: center;
   }
-
+  
 }
 
 .tasks {
@@ -144,11 +144,6 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-
-.task__input {
-  width: 226px;
 }
 
 .button_delete:hover {
@@ -179,8 +174,9 @@
 }
 
 .edit-mode .task__input {
+  width: 56%;
   display: inline-block;
-  width: 224px;
+  flex-grow: 1;
 }
 
 .edit-mode .task__title {
