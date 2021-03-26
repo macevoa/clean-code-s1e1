@@ -56,7 +56,7 @@ h3 {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -165,12 +165,14 @@ button.delete img:hover {
 }
 
 /* Completed */
+
 ul#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 ul li input[type="text"] {
   display: none;
 }
